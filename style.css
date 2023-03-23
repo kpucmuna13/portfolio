@@ -1,0 +1,85 @@
+body   
+   {  
+   height: 125vh;  
+   margin-top: 80px;  
+   padding: 30px;  
+   background-size: cover;  
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+   }  
+
+
+   header {  
+   background-color: rgb(63, 21, 121);
+   position: fixed;  
+   left: 0;  
+   right: 0;  
+   top: 0px;  
+   height: 60px;  
+   display: flex;  
+   align-items: center;  
+   box-shadow: 0 0 25px 0 rgba(148, 46, 226, 0.773);  
+   }  
+   header * {  
+   display: inline;  
+   }  
+   header li {  
+   margin: 20px;  
+   }  
+   header li a {  
+    font-family: Geneva;
+   color: rgb(255, 255, 255);  
+  text-decoration: none;  
+   }  
+
+  
+
+body {
+    background-image: url(phon4.jpg);
+    background-size: auto;
+    background-color: rgba(164, 97, 227, 0.499);
+  }
+  
+  
+  div {
+      
+      display: inline-block;
+      width: 30%;
+  
+      padding: 20px;
+      transition: all 0.3s;
+  }
+  
+  
+  img {
+      width: 100%; 
+      border-radius:  0 60px 60px 60px;
+      
+  }
+  img {
+      width: 65%; 
+      border-radius:  0 60px 60px 60px;
+      
+  }
+  .mobile {
+  display: none
+}
+
+@media(max-width: 500px)  {
+ div div {
+  width: 100%;
+ }
+ div div:hover {
+  transform: none;
+}
+
+body div: first-child a {
+display: block;
+text-align: center;
+}
+.desktop {
+  display: none;
+}
+.mobile {
+  display: block
+}
+}
