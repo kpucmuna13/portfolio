@@ -38,7 +38,11 @@ body {
     background-size: auto;
     background-color: rgba(164, 97, 227, 0.499);
   }
-  
+  .grow:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
   
   div {
       
